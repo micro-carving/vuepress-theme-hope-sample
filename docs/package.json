@@ -1,0 +1,18 @@
+{
+  "name": "vuepress-theme-hope-sample",
+  "version": "2.0.0",
+  "description": "基于 vuepress 的主题 vuepress-theme-hope 开源项目构建的知识文档样例系统，方便用于生成开源项目的文档系统。方便大家学习和交流，欢迎大家 Star 和 Fork 支持~",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:dev": "vuepress dev src"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.60",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-theme-hope": "2.0.0-beta.172"
+  }
+}
