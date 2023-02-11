@@ -1,10 +1,10 @@
 ---
 home: true
 icon: home
-title: 项目主页
-heroImage: /logo.svg
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+title: 字节微雕
+heroImage: /logo.gif
+heroText: 字节微雕
+tagline: 如果厌倦了“内卷（内耗）”，请尝试“微雕（专注）”！
 actions:
   - text: 使用指南 💡
     link: /zh/demo/
@@ -17,7 +17,7 @@ features:
   - title: Markdown 增强
     icon: markdown
     details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: https://theme-hope.vuejs.press/zh/guide/markdown/
+    link: /zh/demo/markdown
 
   - title: 幻灯片页面
     icon: slides
@@ -54,56 +54,9 @@ features:
     details: 可以自由切换浅色模式与深色模式
     link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
 
-  - title: 完整的无障碍支持
-    icon: support
-    details: 为你的网站带来完整的无障碍支持
-    link: https://theme-hope.vuejs.press/zh/guide/interface/accessibility.html
 
-  - title: 文章加密
-    icon: lock
-    details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-    link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
-
-  - title: 复制按钮
-    icon: copy
-    details: 一键复制代码块中的代码
-    link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
-
-  - title: 图片预览
-    icon: pic
-    details: 像相册一样允许你浏览、缩放并分享你的页面图片
-    link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
-
-  - title: SEO 增强
-    icon: config
-    details: 将最终生成的网页针对搜索引擎进行优化。
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
-
-  - title: Sitemap
-    icon: sitemap
-    details: 自动为你的网站生成 Sitemap
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
-
-  - title: Feed 支持
-    icon: rss
-    details: 生成你的 Feed，并通知你的用户订阅它
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
-
-  - title: PWA 支持
-    icon: mobile
-    details: 让你的网站更像一个 APP
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
-
-  - title: 更多新特性
-    icon: more
-    details: 包括图标支持、全屏按钮、返回顶部按钮等
-    link: https://theme-hope.vuejs.press/zh/guide/feature/
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+footer: GPL3.0 协议 | 版权所有 © 2022-present <a href="http://www.olinonee.com">olinonee</a>
 ---
 
-这是项目主页的案例。你可以在这里放置你的主体内容。
-
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
-
-配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。
+TODO

@@ -3,20 +3,20 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://olinonee.com",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "olinonee",
+    url: "https://olinonee.com",
   },
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/logo.gif",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "micro-carving/vuepress-theme-hope-sample",
 
-  docsDir: "demo/theme-docs/src",
+  docsDir: "docs/src",
 
   locales: {
     "/": {
