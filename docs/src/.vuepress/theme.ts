@@ -1,8 +1,10 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
+// import { blogPlugin } from "vuepress-plugin-blog2";
 
 export default hopeTheme({
+  editLinkPattern: "",
   hostname: "https://olinonee.com",
 
   author: {
@@ -10,6 +12,7 @@ export default hopeTheme({
     url: "https://olinonee.com",
   },
 
+  // https://theme-hope.vuejs.press/zh/guide/interface/icon.html#%E4%BD%BF%E7%94%A8-fontawesome
   iconAssets: "iconfont",
 
   logo: "/logo.gif",
@@ -197,5 +200,41 @@ export default hopeTheme({
     //     ],
     //   },
     // },
+
   },
+
+  // https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+
+  // "switch": 在深色模式，浅色模式和自动之间切换 (默认)
+  // "toggle": 在深色模式和浅色模式之间切换
+  // "auto": 自动根据用户设备主题或当前时间决定是否应用深色模式
+  // "enable": 强制深色模式
+  // "disable": 禁用深色模式
+  darkmode: "switch",
+
+  // 是否显示打印按钮
+  print: true,
+
+  // https://theme-hope.vuejs.press/zh/guide/interface/others.html#%E5%85%A8%E5%B1%8F%E6%8C%89%E9%92%AE
+  fullscreen: true,
+
+  // 是否显示纯净模式，在这个模式下，我们会禁用一些花哨的动画以及一些色彩，只提供功能。
+  pure: false,
+
+  // blog: {
+  //   name: "字节微雕",
+  //   avatar: "/logo.gif",
+  //   roundAvatar: true,
+  //   description: "如果厌倦了“内卷（内耗）”，请尝试“微雕（专注）”",
+  //   intro: "https://github.com/micro-carving",
+  //   medias: {
+  //     Github: "https://github.com/micro-carving"
+  //   }
+  // }
 });

@@ -3,3 +3,14 @@
 .hero-info-wrapper .description {
   max-width: 38rem;
 }
+
+// 重写导航下拉样式
+.dropdown-wrapper .dropdown-subtitle {
+  font-size: 1rem;
+  color: var(--text-color-light);
+}
+
+// 重写导航下拉中的 nav-link 样式
+.dropdown-wrapper .nav-link {
+  padding: 0 1.5rem 0 1.25rem;
+}

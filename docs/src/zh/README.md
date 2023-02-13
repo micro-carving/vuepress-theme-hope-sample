@@ -14,49 +14,56 @@ actions:
     link: /zh/guide/
 
 features:
-  - title: Markdown 增强
-    icon: markdown
-    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: /zh/demo/markdown
+  - title: Java 体系
+    icon: java
+    details: 面向对象基础、Java语言基础、集合与IO流、高并发JUC和JVM底层原理
+    link: /zh/demo/java-projects
 
-  - title: 幻灯片页面
-    icon: slides
-    details: 添加幻灯片页面以显示你喜欢的内容
-    link: https://theme-hope.vuejs.press/zh/guide/layout/slides.html
+  - title: Spring 全家桶
+    icon: leaf
+    details: Spring、SpringBoot、SpringSecurity、SpringCloud 等全家桶
+    link: /zh/demo/spring-projects
 
-  - title: 布局增强
-    icon: layout
-    details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-    link: https://theme-hope.vuejs.press/zh/guide/layout/
+  - title: 前端体系
+    icon: page
+    details: HTML、CSS、JavaScript、Vue 等前端框架
+    link: /zh/demo/front-end-projects
 
-  - title: 浏览量与评论
-    icon: comment
-    details: 配合 Waline 来开启阅读量统计与评论支持
-    link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+  - title: 数据存储
+    icon: storage
+    details: MySQL、Oracle、PostgreSQL 等数据库和 Redis、ElasticSearch、MongoDB 等非关系性数据库存储
+    link: /zh/demo/storage-projects
 
-  - title: 文章信息
-    icon: info
-    details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-    link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+  - title: 部署和运维
+    icon: shell
+    details: Linux 操作系统、Docker 虚拟化容器、CI/CD 持续集成与部署
+    link: /zh/demo/deploy-operation-projects
 
-  - title: 博客支持
-    icon: blog
-    details: 使用一些很棒的布局提供博客功能，通过文章的日期、标签和分类，自动生成文章、分类、标签与时间轴列表
-    link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
+  - title: 开源和贡献
+    icon: Apache
+    details: 开源项目和参与开发的项目
+    link: /zh/demo/opensource-projects
 
-  - title: 主题色切换
-    icon: palette
-    details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
-    link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
+  - title: 架构和算法
+    icon: structure
+    details: 架构基础、算法基础及思想等
+    link: /zh/demo/structure-projects
 
-  - title: 深色模式
-    icon: contrast
-    details: 可以自由切换浅色模式与深色模式
-    link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
+  - title: 工具和资源
+    icon: share
+    details: 常用的开发工具、办公软件使用、网络资源的分享
+    link: /zh/demo/resource-projects
 
+  - title: 技能和实力
+    icon: ability
+    details: 硬技能和软实力
+    link: /zh/demo/ability-projects
+
+  - title: 阅读和思考
+    icon: read
+    details: 读万卷书，行万里路
+    link: /zh/demo/read-think-projects
 
 copyright: false
-footer: GPL3.0 协议 | 版权所有 © 2022-present <a href="http://www.olinonee.com">olinonee</a>
+footer: <a target="_blank" href="https://beian.miit.gov.cn">粤ICP备2022128383号-1</a> | <a target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.txt">GPL3.0 协议</a> | <a target="_blank" href="http://www.olinonee.com">olinonee</a> | Copyright © 2022-present, All rights reserved.
 ---
-
-TODO
